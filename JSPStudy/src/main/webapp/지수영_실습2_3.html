@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>title</title>
+</head>
+<body>
+	<h3>Details와 summary 태그</h3>
+	Q &amp; A리스트
+	<hr>
+	<details>
+		<summary>Question 2</summary>
+		<p>웹 개발자가 알아야 하는 언어 3가지?</p>
+	</details>
+	<details>
+		<summary>Answer 1</summary>
+		<p>HTML5, CSS, Javascript</p>
+	</details>
+	
+	<br><h3>버튼을 만들자 </h3>
+	<hr>
+	<form>
+		검색 : <input type="text" size = "10" value = "">
+						<input type = "button" value = "Q1">
+						<button type = "button">Q2</button><br>
+		submit 버튼 : <input type = "submit" value ="전송1">
+											<button type="submit">전송2</button><br>
+		reset 버튼: <input type = "rest" value = "리셋1">
+									<button type = "reset">리셋2</button><br>
+		이미지버튼: <input type = "image" src = "media/button.png"
+											alt = "이미지 버튼">
+											<button type = "button">
+												<img src = "media/button.png" alt = "이미지 버튼">
+											</button>
+	</form>	
+		
+	<br><h3>먹고 싶은 것 모두 체크하세요</h3>
+	<hr>
+	<form	>
+		짜장면 <input type = "checkbox" value = "1">
+		짬뽕 <input type = "checkbox" value = "2" checked>
+		탕수육 <input type = "checkbox" value = "3">
+	</form>
+	
+	<br><h3>먹고 싶은 것 하나만 선택?</h3>
+	<hr>
+	<form>
+		<input type = "radio" name = "china" value = "1">
+		짜장면 <img src = "media/jajang.png"><br>
+		<input type ="radio" name = "china" value = "2" checked>
+		짬뽕 <img src = "media/jjambbong.png"><br>
+		<input type = "radio" name = "china" value = "3">
+		탕수육<img src = "media/tangsuyuk.png">
+	</form>
+	
+	<br><h3>먹고싶은 음식은?</h3>
+	<hr>
+	<form>
+		<select name = "china">
+			<option value = "1">짜장면</option>
+			<option value = "2" selected>짬뽕</option>
+			<option value = "3">탕수육</option>
+		</select>
+	</form>
+	
+	<br><h3>로그인 폼</h3>
+	<hr>
+	<form name = "fo" method = "get">
+		<label>사용자 ID : <input type = "text" size = "15" value = ""></label><br>
+		<label for = "pass">비밀 번호 : </label>
+		<input id = "pass" type = "password" size = "15" value = "">
+		<input type = "submit" value = "완료">
+	</form>
+	
+	<br><h3>회원 정보를 입력해주세요.</h3>
+	<hr>
+	<form>
+		<fieldset>
+			<legend>회원정보</legend>
+			이메일 : <input type = "email"><br>
+			홈페이지 : <input type = "url"><br>
+			전화번호 : <input type = "tel">
+		</fieldset>
+		<small>질문 : Tel. 010-111-1111</small>
+	</form>
+</body>
+</html>

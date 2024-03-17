@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>설문지</title>
+</head>
+
+<body>
+<h2>설문지</h2>
+<p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+<hr>
+<form>
+	<table>
+		<tr><td>학년
+				<input type = "radio" name = "grade" value = "1">1학년
+				<input type = "radio" name = "grade" value = "2">2학년
+				<input type = "radio" name = "grade" value = "3">3학년
+				<input type = "radio" name = "grade" value = "4">4학년
+				<br>
+			</td>
+		</tr>
+		
+		<tr><td>성별
+					<input type = "radio" name = "MW" value = "1">남
+					<input type = "radio" name = "MW" value = "2">여
+					<br>
+		</td>
+		</tr>
+		
+		<tr><td>관심 분야
+			<select name = "interest">
+					<option value = "1">모바일 소프트웨어</option>
+					<option value = "2">운영체제</option>
+					<option value = "3">기계학습</option>
+					<br>
+			</select>
+		</td></tr>
+		
+		<tr><td>진로
+			<input type = "checkbox" value = "1">개발
+			<input type = "checkbox" value = "2">기획
+			<input type = "checkbox" value = "3">영업
+			<input type = "checkbox" value = "4">창업
+			<br>
+		</td></tr>
+		
+		<tr><td>남기고 싶은 말
+			<textarea cols = "50" rows = "10"  value = "" placeholder = "글을 남겨주세요"></textarea>
+		</td></tr>
+		
+	</table>
+
+</form>
+
+<br>	Copyright 2022 by Kitae
+
+</body>
+</html>
